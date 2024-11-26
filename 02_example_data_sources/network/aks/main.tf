@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "main" {
-  name     = "${var.environment}-aks-env-out"
+  name     = "${var.environment}-aks-env-out-new"
   location = var.location
 
 }
